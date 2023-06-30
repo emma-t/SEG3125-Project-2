@@ -13,6 +13,12 @@ function PageNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/donate">Donate</Nav.Link>
+            <Nav.Link href="/items">Our Items</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
+            <Nav.Link href="/location">Location</Nav.Link>
+            <Nav.Link href="/faq-reviews">FAQ & Reviews</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
