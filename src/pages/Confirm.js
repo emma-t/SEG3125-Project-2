@@ -1,5 +1,6 @@
 import React from "react";
 import BookingDetails from "../components/BookingDetails";
+import ChatBot from "../components/ChatBot";
 
 function Donate() {
     return (
@@ -57,7 +58,7 @@ function Donate() {
             </div>
 
 
-
+            <ChatBot />
         </div>
     );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import ChatBot from "../components/ChatBot";
 
 function Home(){
 
@@ -12,6 +13,7 @@ function Home(){
                                         Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
                                         sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
             </p>
+            <ChatBot />
             
         </div>
 

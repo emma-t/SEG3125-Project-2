@@ -1,5 +1,6 @@
 import React from "react";
 import InfoForm from "../components/InfoForm";
+import ChatBot from "../components/ChatBot";
 
 function Donate() {
     return (
@@ -33,7 +34,7 @@ function Donate() {
             <div className="row">
                     <InfoForm />
             </div>
-
+            <ChatBot />
         </div>
     );
 }

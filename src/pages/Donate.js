@@ -1,6 +1,7 @@
 import React from "react";
 import Date from "../components/Date";
 import Times from "../components/Times";
+import ChatBot from "../components/ChatBot";
 
 function Donate() {
     return (
@@ -48,7 +49,7 @@ function Donate() {
                     </a>
                 </div>
             </div>
-
+            <ChatBot />
         </div>
     );
 }

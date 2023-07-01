@@ -7,7 +7,6 @@ import Info from './pages/Info.js';
 import Confirm from './pages/Confirm.js';
 import Items from './pages/Items';
 import About from './pages/About';
-import Location from './pages/Location';
 import FAQReviews from './pages/FAQReviews';
 import Contact from './pages/Contact';
 
@@ -25,7 +24,6 @@ function App() {
         <Route path='/confirm' element = {<Confirm />} />
         <Route path='/items' element = {<Items />} />
         <Route path='/about' element = {<About />} />
-        <Route path='/location' element = {<Location />} />
         <Route path='/faq-reviews' element = {<FAQReviews />} />
         <Route path='/contact' element = {<Contact />} />
         {/* <Route path='/Services' element = {<Services />} /> */}
