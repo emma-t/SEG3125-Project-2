@@ -1,6 +1,5 @@
 import React from "react";
-import Date from "../components/Date";
-import Times from "../components/Times";
+import InfoForm from "../components/InfoForm";
 
 function Donate() {
     return (
@@ -17,12 +16,12 @@ function Donate() {
                             <div
                                 className="progress-bar"
                                 role="progressbar"
-                                style={{ width: '33%'}}
-                                aria-valuenow="33"
+                                style={{ width: '66%'}}
+                                aria-valuenow="66"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
                             >
-                                33%
+                                66%
                             </div>
                         </div>
                     </div>
@@ -32,21 +31,7 @@ function Donate() {
             <br />
 
             <div className="row">
-                <div className="col-6">
-                    <Date />
-                </div>
-                <div className="col-6">
-                    <Times />
-                </div>
-            </div>
-
-            <div className="row">
-                <div className="col text-center">
-                    <a href="info" className="btn btn-primary mx-auto" role="button"
-                        style={{ width: '60%'}}>
-                        <b>Continue</b>
-                    </a>
-                </div>
+                    <InfoForm />
             </div>
 
         </div>
