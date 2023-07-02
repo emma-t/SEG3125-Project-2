@@ -1,6 +1,5 @@
-import './App.css';
-import PageNavbar from './components/PageNavbar';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Donate from './pages/Donate';
 import Info from './pages/Info';
@@ -9,10 +8,11 @@ import Items from './pages/Items';
 import About from './pages/About';
 import FAQReviews from './pages/FAQReviews';
 import Contact from './pages/Contact';
+import PageNavbar from './components/PageNavbar';
 
 function App() {
   return (
-    <Router basename="/seg3125-project-2">
+    <Router>
       <div>
         <PageNavbar />
         <Routes>
