@@ -12,11 +12,11 @@ import PageNavbar from './components/PageNavbar';
 
 function App() {
   return (
-    <Router basename="/seg3125-project-2">
+    <BrowserRouter basename="/seg3125-project-2">
       <div>
         <PageNavbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} exact />
           <Route path="/donate" element={<Donate />} />
           <Route path="/info" element={<Info />} />
           <Route path="/confirm" element={<Confirm />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
