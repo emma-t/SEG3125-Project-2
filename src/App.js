@@ -12,18 +12,19 @@ import PageNavbar from './components/PageNavbar';
 
 function App() {
   return (
-    <BrowserRouter basename={window.location.pathname || ''}>
+    // <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter>
       <div>
         <PageNavbar />
         <Routes>
-          <Route path="/seg3125-project-2/" element={<Home />} />
-          <Route path="/seg3125-project-2/donate" element={<Donate />} />
-          <Route path="/seg3125-project-2/info" element={<Info />} />
-          <Route path="/seg3125-project-2/confirm" element={<Confirm />} />
-          <Route path="/seg3125-project-2/items" element={<Items />} />
-          <Route path="/seg3125-project-2/about" element={<About />} />
-          <Route path="/seg3125-project-2/faq-reviews" element={<FAQReviews />} />
-          <Route path="/seg3125-project-2/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/donate" element={<Donate />} />
+          <Route path="/info" element={<Info />} />
+          <Route path="/confirm" element={<Confirm />} />
+          <Route path="/items" element={<Items />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/faq-reviews" element={<FAQReviews />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>

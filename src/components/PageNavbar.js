@@ -9,15 +9,15 @@ function PageNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand as={NavLink} to="/seg3125-project-2/">ReviveMart</Navbar.Brand>
+        <Navbar.Brand as={NavLink} to="/">ReviveMart</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={NavLink} to="/seg3125-project-2/donate">Donate</Nav.Link>
-            <Nav.Link as={NavLink} to="/seg3125-project-2/items">Our Items</Nav.Link>
-            <Nav.Link as={NavLink} to="/seg3125-project-2/about">About Us</Nav.Link>
-            <Nav.Link as={NavLink} to="/seg3125-project-2/faq-reviews">FAQ & Reviews</Nav.Link>
-            <Nav.Link as={NavLink} to="/seg3125-project-2/contact">Contact Us</Nav.Link>
+            <Nav.Link as={NavLink} to="/donate">Donate</Nav.Link>
+            <Nav.Link as={NavLink} to="/items">Our Items</Nav.Link>
+            <Nav.Link as={NavLink} to="/about">About Us</Nav.Link>
+            <Nav.Link as={NavLink} to="/faq-reviews">FAQ & Reviews</Nav.Link>
+            <Nav.Link as={NavLink} to="/contact">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
