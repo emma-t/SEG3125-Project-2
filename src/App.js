@@ -12,7 +12,7 @@ import PageNavbar from './components/PageNavbar';
 
 function App() {
   return (
-    <BrowserRouter basename="/seg3125-project-2">
+    <BrowserRouter basename={window.location.pathname || ''}>
       <div>
         <PageNavbar />
         <Routes>
