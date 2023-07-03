@@ -12,37 +12,37 @@ function Contact() {
             <div className="container-fluid d-flex justify-content-center">
 
                 <div className="row" style={{ height: '300px', maxWidth: '100%' }}>
-                    <div className="col-lg-5">
+                    <div className="col-lg-4">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.3523471638596!2d-75.68932491411351!3d45.42239819648794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0507c6d4942b%3A0x822f56e12a53717!2suOttawa!5e0!3m2!1sen!2sca!4v1686517171656!5m2!1sen!2sca"
                             className="h-100 w-100" style={{ border: '0' }} allowFullScreen="" loading="lazy"
                         ></iframe>
                     </div>
 
-                    <div className="col-lg-7 d-flex align-items-center">
+                    <div className="col-lg-8 d-flex align-items-center">
                         <form style={{ width: '100%' }}>
-                            <div className="row">
+                            <div className="row text-center">
                                 <div className="col-md-3" style={{ marginTop: '60px' }}>
                                     <ul className="list-unstyled">
                                         <li>
-                                            <i className="bi-geo-alt-fill" style={{ color: '#02323a' }}></i>
+                                            <i className="bi-geo-alt-fill"></i>
                                             <p><small>90 University Private<br />Ottawa, ON<br />K1N 6N5</small></p>
                                         </li>
                                         <li>
-                                            <i className="bi-telephone-fill" style={{ color: '#02323a' }}></i>
+                                            <i className="bi-telephone-fill"></i>
                                             <p><small>(613) 613-6133</small></p>
                                         </li>
                                         <li>
-                                            <i className="bi-envelope-fill" style={{ color: '#02323a' }}></i>
-                                            <p><small>contact@bibliotech.com</small></p>
+                                            <i className="bi-envelope-fill"></i>
+                                            <p><small>contact@revivemart.com</small></p>
                                         </li>
 
-                                        <li style={{ color: '#02323a' }}>
-                                            <p><small><b>Monday</b> 9am-5pm
-                                                <br /><b>Tuesday</b> 9am-5pm
-                                                <br /><b>Wednesday</b> 9am-5pm
-                                                <br /><b>Thursday</b> 9am-5pm
-                                                <br /><b>Friday</b> 9am-5pm</small></p>
+                                        <li>
+                                            <p><small><b>Monday</b> 9am-6pm
+                                                <br /><b>Tuesday</b> 9am-6pm
+                                                <br /><b>Wednesday</b> 9am-6pm
+                                                <br /><b>Thursday</b> 9am-6pm
+                                                <br /><b>Friday</b> 9am-6pm</small></p>
                                         </li>
                                     </ul>
                                 </div>

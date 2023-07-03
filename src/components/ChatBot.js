@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 const ChatBot = () => {
   const [chatHistory, setChatHistory] = useState([]);
   const [userMessage, setUserMessage] = useState('');
-  const [isMinimized, setIsMinimized] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(true);
   const chatContainerRef = useRef(null);
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const ChatBot = () => {
   return (
     <div className={`chatbot-container ${isMinimized ? 'minimized' : ''}`}>
       <div className="chatbot-header">
-        <h2>Chatbot</h2>
+        <h6>Chatbot</h6>
         <button className="minimize-button" onClick={handleToggleMinimize}>
           {isMinimized ? '+' : '-'}
         </button>
