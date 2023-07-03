@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Donate from './pages/Donate';
 import Info from './pages/Info';
@@ -16,7 +16,7 @@ function App() {
       <div>
         <PageNavbar />
         <Routes>
-          <Route path="/" element={<Home />} exact />
+          <Route path="/" element={<Home />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/info" element={<Info />} />
           <Route path="/confirm" element={<Confirm />} />
